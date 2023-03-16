@@ -1,0 +1,63 @@
+QWidget
+{
+	background-color: #8f1e28;
+	color: #fff;
+	selection-background-color: #aa7e82;
+	selection-color: #000;
+}
+QLabel
+{
+	background-color: transparent;
+	color: #fff;
+}
+QPushButton
+{
+	background-color: #6384ff;
+        color: #0033FF;
+	border: none;
+	min-width: 80px;
+	padding: 5px;
+}
+QPushButton::flat
+{
+	background-color: transparent;
+	border: none;
+	color: #000;
+}
+QPushButton::disabled
+{
+	background-color: #606060;
+	color: #959595;
+	border: none;
+}
+
+QPushButton::hover
+{
+	background-color: #718fff;
+	border: 1px solid #718fff;
+}
+
+QPushButton::pressed
+{
+	background-color: #446cff;
+	border: 1px solid #446cff;
+}
+QPushButton::checked
+{
+	background-color: #3761ff;
+	border: 1px solid #3761ff;
+}
+QLineEdit
+{
+	background-color: #e8d9d7;
+	color : #000;
+	border: 1px solid #1d1d1d;
+	padding: 3px;
+	padding-left: 5px;
+}
+QStatusBar
+{
+	background-color: qlineargradient(spread:repeat, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(70, 70, 70, 255),stop:1 rgba(3, 2, 5, 255));
+	color: #ffffff;
+	border-color: #051a39;
+}
